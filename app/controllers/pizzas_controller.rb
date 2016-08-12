@@ -72,3 +72,7 @@ class PizzasController < ApplicationController
       params.require(:pizza).permit(:name, :crust, :sauce, :toppings, :cost, :image)
     end
 end
+
+def home
+
+end
